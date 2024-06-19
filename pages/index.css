@@ -4,4 +4,20 @@
     font-family: inter, arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
+    margin-right: 0;
+    margin-left: 0;
 }
+
+.header {}
+
+.content {}
+
+.recipes {}
+
+.reservation {}
+
+.menu {}
+
+.about {}
+
+.footer {}
