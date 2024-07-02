@@ -57,14 +57,16 @@ line-height: 30px;
 
 }
 
-.header__coffee-image {
+.header__image {
     position: absolute;
-    right: 120px;
+    right: 100px;
+    top: 12;
     width:646px;
     height: 568px;
     top: 124px;
     background-position: center;
     background-size: cover;
+    top: 124px;
     
 }
 
@@ -77,7 +79,9 @@ color: #6F6F6F;
 }
 
 .header__paragraph {
-    margin:0;
+    margin:auto 0;
+    display: flex;
+    
 }
 
 .recipes{
@@ -113,6 +117,7 @@ line-height: 30px;
     width: 480px;
     height: 273px;
     margin-bottom: 24px;
+    border: none;
 }
 
 .recipes__video-caption {
