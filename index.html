@@ -22,14 +22,14 @@
         <header class="header">
             <nav class="nav">
                 <img class="nav__logo" src="images/logo_coffeeshop_dark.svg" alt="coffeeshop logo">
-                <div>
+                
                     <ul class="nav__links">
                         <li> <a href="#recipes" class="nav__link">Recipes</a></li>
                         <li> <a href="#table" class="nav__link">Book a table</a></li>
                         <li> <a href="#menu" class="nav__link">Menu</a></li>
                         <li> <a href="#contacts" class="nav__link">Contacts</a> </li>
                     </ul>
-                </div>
+                
             </nav>
             <h1 class="header__title">
                 <span class="header__span-accent">
@@ -80,22 +80,22 @@
                 <form class=" reservation__form form">
                     <fieldset class = "form__fieldset" >
                     <label class = "form__label" for = "name">Name *  
-                    <input placeholder = "Name Surname" type = "text" class = "form__input" id = "name">
+                    <input placeholder = "Name Surname" type = "text" class = "form__input" id = "name" required>
                 </label>
-                    <label class = "form__label" for = "guests">Number of guests * 
-                    <input placeholder = "1-8" type = "number" class = "form__input" id = "guests">
+                    <label class = "form__label form__label_type_number" for = "guests">Number of guests * 
+                    <input placeholder = "1-8" type = "number" class = "form__input" id = "guests" required>
                 </label> 
                     <label class = "form__label" for = "date_time">Date & time *  
-                    <input type = "datetime-local" class = "form__input" id = "date_time">
+                    <input type = "datetime-local" class = "form__input" id = "date_time" required>
                 </label>
                     <label class = "form__label" for = "email">Your email * 
-                    <input placeholder = "email@email.com" type = "email" class = "form__input" id = "email">
+                    <input placeholder = "email@email.com" type = "email" class = "form__input" id = "email" required>
                 </label> 
                     <button class = "form__button">Book a table</button> 
                     <label for = "terms" class = "form__label form__label_type_checkbox" >
-                    <input type = "checkbox" class = "form__checkbox" id = "terms" >
-                    I agree with the terms of use
-                </label>
+                    <input type = "checkbox" class = "form__checkbox" id = "terms"required >I agree with the terms of use </label>
+            
+                
                     </fieldset>
                 </form>
             </section>
@@ -135,45 +135,44 @@
             </ul>
             </section>
             <section class="about">
-               
-                        <h1 class="about__title">About the coffee shop</h1>
+              
+                        <h2 class="about__title">About the coffee shop</h2>
                         <div class="about__content">
-                     
-                    
                         <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6
                         tables and free WiFi.</p>
-                     <div class= "paragraph__container"> 
-                    <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p></div>  
+                    <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p> 
                     <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we
-                        don't sell single-use cups. But you can buy one of our reusable cups!</p></div>
-                        <div class = "about__circle" ></div>
+                        don't sell single-use cups. But you can buy one of our reusable cups!</p>
+                    </div> 
+                    
+                         <div class = " about__circle" ></div>
                         <div class = "about__circle about__circle_animation_blurred" ></div>
             </section>
         </main>
         <footer class="footer" id="contacts">
             <div class="footer__content">
                 
-                <img src="images/logo_coffeeshop_light.svg" alt="" class="footer__logo">
-                <div class="footer__social_wrapper">
-                <h3 class="footer__social_heading">Social Media</h3>
+                <img src="images/logo_coffeeshop_light.svg" alt="coffee__image" class="footer__logo">
+                <div class="footer__content_social_wrapper">
+                <h3 class="footer__content_social_heading">Social Media</h3>
                 <ul class="footer__list">
-                    <li class="footer__list_item"> 
-                        <a href="" class="footer__anchor">
-                        <img src="images/facebook_white.svg" alt="facebook_logo" class="footer__social_icon">
+                    <li class="footer__content_list_item"> 
+                        <a href="#contacts" class="footer__content_anchor">
+                        <img src="images/facebook_white.svg" alt="facebook_logo" class="footer__content_social_icon">
                      Facebook
                     
                     </a>
                 </li>
                     <li class="footer__list_item">
-                        <a href="" class="footer__anchor">
-                        <img src="images/instagram_white.svg" alt="instagram_logo" class="footer__social_icon">
+                        <a href="#contacts" class="footer__content_anchor">
+                        <img src="images/instagram_white.svg" alt="instagram_logo" class="footer__content_social_icon">
                       Instagram
                     </a>
                     </li>
                 </ul>
             </div>
             </div>
-            <h3 class="footer__copyright">© 2023 Meshach Jacobs</h3>
+            <p class="footer__copyright">© 2023 Meshach Jacobs</p>
         </footer>
     </div>
 

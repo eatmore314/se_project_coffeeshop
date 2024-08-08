@@ -5,19 +5,20 @@
     position: relative;
     z-index: 3;
     overflow: hidden;
+    color: #fff;
 }
 
 .about__title {
- font-size: 2em;
 margin-top: 100px;
 margin-left: 80px;
 max-width: 251px;
 line-height: 52px;
-font-family: "Inter";
+font-family: "Inter",Arial,Sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 44px;
 z-index: 1;
+margin-bottom: 0;
 }
 
 .about__content {
@@ -36,7 +37,8 @@ font-family: "Noto Serif";
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 30px;   
+line-height: 30px;  
+margin:0; 
 }
 
 .about__circle {
@@ -50,9 +52,6 @@ position: absolute;
 
 }
 
-paragraph__container {
-    margin-top: 100px;
-}
 
 .about__circle_animation_blurred {
     animation: pulsate 1.3s ease-in-out infinite;

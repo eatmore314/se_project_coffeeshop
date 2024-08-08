@@ -8,6 +8,8 @@
     background: url("../images/background_header.svg") right 0 no-repeat #fff;
     color: #000;
     position: relative;
+    background-position: center;
+    background-size: cover;
 }
 
 .header__title {
@@ -40,7 +42,7 @@
 max-width: 683px;
 font-size: 20px;
 line-height: 30px;
-margin: 20px 0 0;
+margin: 28px 0 0;
 font-family: "Noto Serif";
 font-style: normal;
 font-weight: normal;
@@ -51,8 +53,7 @@ line-height: 30px;
 
 .header__image {
     position: absolute;
-    right: 100px;
-    top: 12px;
+    right: 5px;
     width:646px;
     height: 568px;
     top: 124px;
