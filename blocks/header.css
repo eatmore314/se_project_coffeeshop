@@ -14,14 +14,12 @@
 
 .header__title {
     max-width: 729px;
-    max-height: 183px;
     font-size: 60px;
     line-height: 70px;
     margin: 183px 0 0;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 60px;
     line-height: 72px;
     letter-spacing: -0.6px;
     z-index: 1;
@@ -46,8 +44,6 @@ margin: 28px 0 0;
 font-family: "Noto Serif";
 font-style: normal;
 font-weight: normal;
-font-size: 20px;
-line-height: 30px;
 
 }
 
@@ -59,7 +55,6 @@ line-height: 30px;
     top: 124px;
     background-position: center;
     background-size: cover;
-    top: 124px;
     
 }
 

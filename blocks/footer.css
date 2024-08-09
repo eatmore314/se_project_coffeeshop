@@ -1,6 +1,5 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-  max-width: 100vw;
   padding-top: 60px;
   padding-right: 80px;
   padding-left: 80px;
@@ -19,9 +18,10 @@
   display: flex;
   flex-direction: column;
   padding: 0;
+  gap: 16px;
 }
 
-.footer__content_social_heading {
+.footer__content-social-heading {
   color: #fff;
   font-family: "Inter";
   font-style: normal;
@@ -31,7 +31,7 @@
   margin: 0 0 20px;
 }
 
-.footer__content_list_item {
+.footer__content-list-item {
   color: #fff;
   font-family: "Inter";
 
@@ -62,7 +62,6 @@ margin: 0;
 
 .footer__list_item {
     display: flex;
-  margin-bottom: 16px;
   line-height: 20px;
  text-decoration: none; 
 
@@ -74,7 +73,7 @@ margin: 0;
 
 
 
-.footer__content_anchor {
+.footer__content-anchor {
   display: flex;
   align-items: center;
   gap: 10px;
