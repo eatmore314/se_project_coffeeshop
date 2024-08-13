@@ -13,7 +13,7 @@ margin-top: 100px;
 margin-left: 80px;
 max-width: 251px;
 line-height: 52px;
-font-family: "Inter",Arial,Sans-serif;
+font-family: Inter, Arial, sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 44px;
@@ -33,12 +33,12 @@ margin-bottom: 0;
 
 .about__paragraph {
 max-width: 660px;
-font-family: "Noto Serif";
+font-family: "Noto Serif", "Times New Roman", serif;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 30px;  
-margin:0; 
+line-height: 30px;
+margin:0;
 }
 
 .about__circle {
@@ -62,7 +62,7 @@ position: absolute;
     0% {
         opacity: 0;
     }
-    
+
     50% {
         opacity: 0.6;
     }
