@@ -18,6 +18,7 @@
     width: 100%;
     margin-top: 8px;
     padding: 10px;
+    height: 60px;
     }
 
 .form__button {
@@ -67,11 +68,6 @@ line-height: 20px;
     margin: 0;
     border: none;
     width: 100%;
-}
-
-
-.form__label_type_number {
-    height: 60px;
 }
 
 .form__checkbox {

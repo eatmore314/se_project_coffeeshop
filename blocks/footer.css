@@ -21,7 +21,7 @@
   gap: 16px;
 }
 
-.footer__content-social-heading {
+.footer__social-heading {
   color: #fff;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
@@ -31,7 +31,7 @@
   margin: 0 0 20px;
 }
 
-.footer__content-list-item {
+.footer__list-item {
   color: #fff;
   font-family: Inter, Arial, sans-serif;
 
@@ -73,7 +73,7 @@ margin: 0;
 
 
 
-.footer__content-anchor {
+.footer__social-link {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -91,6 +91,6 @@ width:105px;
   margin: 0;
 }
 
-.footer__content-anchor:hover {
+.footer__social-link:hover {
   color:#C1C1C1;
 }
