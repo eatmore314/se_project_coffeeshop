@@ -4,6 +4,17 @@
 
 }
 
+.card__title {
+  font-family: Inter, Arial, sans-serif;
+
+font-style: normal;
+
+font-weight: 500;
+
+font-size: 44px;
+
+line-height: 52px;
+}
 
 .card__list-item {
     margin-top: 16px;
