@@ -1,59 +1,58 @@
-.recipes{
-    padding: 100px 80px 215px;
-    background: #0a2750;
-    background-image: url("../images/background_recipes.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #FFF;
-    }
+.recipes {
+  padding: 100px 80px 215px;
+  background: #0a2750;
+  background-image: url("../images/background_recipes.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
 
-    .recipes__title {
-    max-width: 580px;
-    margin-bottom: 24px;
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;
-    margin-top: 0;
-    }
+.recipes__title {
+  max-width: 580px;
+  margin-bottom: 24px;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin-top: 0;
+}
 
-    .recipes__subtitle {
-    margin-bottom: 80px;
-    font-family: "Noto Serif", "Times New Roman", serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    margin-top: 0;
-    max-width: 438px;
-    }
+.recipes__subtitle {
+  margin-bottom: 80px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0;
+  max-width: 438px;
+}
 
-    .recipes__videos {
-        display: flex;
-        gap: 40px;
-        justify-content: center;
-    }
+.recipes__videos {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
 
-    .recipes__iframe {
-        width: 480px;
-        height: 273px;
-        margin-bottom: 24px;
-        border: none;
-    }
+.recipes__iframe {
+  width: 480px;
+  height: 273px;
+  margin-bottom: 24px;
+  border: none;
+}
 
-    .recipes__video-caption {
-    display: flex;
-    justify-content: space-between;
-    font-family: Inter, Arial, sans-serif;
+.recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
+  font-family: Inter, Arial, sans-serif;
 
-    font-style: normal;
+  font-style: normal;
 
-    font-weight: 500;
+  font-weight: 500;
 
-    font-size: 20px;
+  font-size: 20px;
 
-    line-height: 30px;
-    margin: 0;
-    }
-
+  line-height: 30px;
+  margin: 0;
+}
